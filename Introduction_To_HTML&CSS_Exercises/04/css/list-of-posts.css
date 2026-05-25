@@ -1,0 +1,13 @@
+time {
+    color: grey;
+    font-style: italic;
+}
+
+span {
+    color: grey;
+    font-weight: bold;
+}
+
+.grey {
+    color: grey;
+}

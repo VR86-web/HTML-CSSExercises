@@ -1,0 +1,15 @@
+section {
+    border: 2px solid black;
+}
+
+section p {
+    border: 1px solid #ccc;
+}
+
+.inline p {
+    display: inline;
+}
+
+.inline-block p {
+    display: inline-block;
+}

@@ -1,0 +1,10 @@
+div {
+    display: flex;
+}
+
+img {
+    border-radius: 5%;
+    margin: 2px;
+    width: 200px;
+    height: 150px;
+}
