@@ -1,0 +1,25 @@
+.body {
+    margin: 0px;
+}
+
+.main-div {
+    border: 2px solid green;
+    padding: 30px;
+
+}
+
+.content-div {
+    border: 2px solid blue;
+    padding: 0px;
+    margin: 10px auto;
+    width: 620px;
+}
+
+.container {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 40px;
+    text-align: center;
+    width: 500px;
+    font-weight: bold;
+}
