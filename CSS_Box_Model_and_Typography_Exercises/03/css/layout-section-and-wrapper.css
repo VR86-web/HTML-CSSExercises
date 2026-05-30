@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+.main-div {
+    border: 2px solid green;
+}
+
+.inner-div {
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.inner-box {
+    height: 70px;
+    border: 2px solid blue;
+    margin: 20px 120px;
+    padding-left: 40px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
