@@ -1,0 +1,56 @@
+
+.button-link a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    border: 1px solid #dbdbdb;
+    margin: 3px;
+    text-align: center;
+    border-radius: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+}
+
+.button-link a:hover {
+    background-color: white;
+}
+
+.button-link a,
+.button button {
+    box-sizing: border-box;
+}
+
+.button button{
+    margin: 3px;
+    height: 40px;
+    width: 80px;
+    border: 1px solid #dbdbdb;
+    border-radius: 6%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.btn-grey {
+    background-color: #d8d8d8;
+}
+
+.btn-orange {
+    background-color: #ff9b00;
+}
+
+.btn-yellow {
+    background-color: #f9f9cc;
+}
+
+.btn-white {
+    background-color: white;
+}
+
+.btn-dark-grey {
+    background-color: #d8d8d8;
+}
