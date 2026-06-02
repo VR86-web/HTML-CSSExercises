@@ -1,0 +1,41 @@
+.header-container {
+    height: 200px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+
+.header-container h3 {
+    margin-top: 0px;
+    font-style: italic;
+    color: grey;
+}
+
+.main-container {
+    height: 160px;
+    width: 1050px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article-content {
+    width: 310px;
+}
+
+.footer-container {
+    height: 100px;
+    width: 710px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+
+.footer-container p {
+    color: grey;
+}
