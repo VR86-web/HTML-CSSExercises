@@ -1,3 +1,16 @@
+body {
+    background-color: rgb(241, 241, 241);
+}
+
+.main-div {
+    width: 1200px;
+    height: 500px;
+    border: 1px solid rgba(209, 207, 207, 0.925);
+    box-shadow: 2px 2px 10px rgb(209, 208, 208);
+    margin: auto;
+    background-color: white;
+}
+
 .header-container {
     height: 200px;
     width: 500px;
