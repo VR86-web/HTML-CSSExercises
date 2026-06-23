@@ -1,1 +1,37 @@
+@media (max-width: 600px) {
 
+    nav {
+        flex-direction: row-reverse;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    .container-fluid ul {
+        display: none;
+    }
+
+    .site-header > i {
+        left: 0;
+        display: block;
+        text-align: center;
+    }
+
+    .about {
+        display: flex;
+    }
+
+    .about-header {
+        margin: auto;
+        bottom: 0;
+    }
+
+    .gallery {
+        text-align: center;
+    }
+
+    .gallery-item {
+        display: inline-block;
+    }
+}
