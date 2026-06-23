@@ -1,0 +1,84 @@
+body {
+    font-family: 'Source Sans 3', sans-serif;
+    color: #555;
+    background-color: #f6f6f6;
+}
+
+h3 {
+    letter-spacing: 10px;
+}
+
+.site-wraper {
+    margin: auto;
+    width: 1200px;
+}
+
+.site-content {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+
+.form-row {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+}
+
+.form-field {
+    border: none;
+    flex: 1;
+    margin: 5px;
+}
+
+input, textarea{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid grey;
+    background-color: transparent;
+}
+
+.button button {
+    font-size: 0.5rem;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    background-color: #585858;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+.social-media-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social-media-list i{
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 3px;
+    margin: 3px;
+    width: 70px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    flex: 2;
+}
+
+aside {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-row a{
+    color: inherit;
+}
