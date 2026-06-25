@@ -21,10 +21,10 @@
 
 			<div class="nav-links">
 				<ul>
-					<li><a href="#">Welcome</a></li>
-					<li><a href="#">News</a></li>
-					<li><a href="#">About Us</a></li>
-					<li><a href="#">Contacts</a></li>
+					<li class="background-color"><a href="#">Welcome</a></li>
+					<li class="no-background-color"><a href="#">News</a></li>
+					<li class="no-background-color"><a href="#">About Us</a></li>
+					<li class="no-background-color"><a href="#">Contacts</a></li>
 				</ul>
 			</div>
 
@@ -48,8 +48,19 @@
 
 				<div class="header-btn">
 
-					<button class="btn-primary">Ok let's go</button>
-					<button class="btn-secondary">More info</button>
+					<button class="btn-primary">
+						Ok, let's go
+						<span class="arrow">
+							<i class="fa-solid fa-arrow-right"></i>
+						</span>
+					</button>
+
+					<button class="btn-secondary">
+						More info
+						<span class="question-mark">
+							<i class="fa-solid fa-question"></i>
+						</span>
+					</button>
 
 				</div>
 
@@ -108,18 +119,22 @@
 	<div class="middle-container-wraper">
 
 		<div class="middle-container">
-			<div>
+			<div class="middle-container-header">
 
 				<h4>Interesting stuff</h4>
-				<img src="" alt="">
-				<img src="" alt="">
-				<img src="" alt="">
-				<img src="" alt="">
+
+				<div class="middle-container-pics">
+					<img src="images/pic04.jpg" alt="">
+					<img src="images/pic05.jpg" alt="">
+					<img src="images/pic06.jpg" alt="">
+					<img src="images/pic07.jpg" alt="">
+				</div>
+
 				<button>More</button>
 
 			</div>
 
-			<div>
+			<div class="middle-container-content">
 
 				<h3>So what's this all about?</h3>
 				<p>This is NewsLetter, a simple HTML and CSS site designed as a task for
