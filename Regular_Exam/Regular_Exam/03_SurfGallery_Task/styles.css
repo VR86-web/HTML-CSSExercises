@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background: #ffffff;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+header {
+    background: linear-gradient(to right, #137889, #89d4dc);
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav li {
+    padding: 15px 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.active {
+    font-family: 'Bebas Neue', sans-serif;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    background: linear-gradient(to right, #248899, #4caec0);
+}
+
+.header-content {
+    text-align: center;
+    padding: 90px 20px 110px;
+}
+
+.header-content h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+}
+
+.header-content p {
+    max-width: 750px;
+    margin: 0 auto 40px;
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+.header-content button {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 15px 40px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+main {
+    width: 100%;
+}
+
+.boards-images-band {
+    background-color: white;
+    width: 100%;
+    padding: 80px 0 0 0;
+}
+
+.boards-images-container {
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid rgb(235, 231, 231);
+    border-bottom: 2px solid rgb(235, 231, 231);
+    gap: 40px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #f9f6f0;
+}
+
+.board-img-wrapper {
+    width: 480px;
+    height: 550px;
+}
+
+.board-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.boards-content-band {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 0 0 80px 0;
+}
+
+.boards-content-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.board-text-block {
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.board-text-block h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    margin: 35px 0 20px;
+    font-size: 30px;
+    color: #333;
+    letter-spacing: 1px;
+    line-height: 1.1;
+    width: 100%;
+    text-align: left;
+}
+
+.board-text-block p {
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    font-size: 12px;
+    width: 100%;
+    text-align: left;
+}
+
+.board-text-block button {
+    padding: 12px 35px;
+    background: white;
+    border: 2px solid #d4d1d1;
+    color: #555;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 3px;
+}
+
+.join-bg {
+    background: #f6f3eb;
+    padding: 60px 0;
+}
+
+.join {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #6a8d92;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 50px;
+    border-radius: 4px;
+}
+
+.join h2 {
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.join button {
+    padding: 15px 35px;
+    border: none;
+    background: white;
+    color: #4a747a;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.gallery-title-band {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 60px 0 20px;
+}
+
+.gallery-title {
+    text-align: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.gallery-title h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 38px;
+    color: #333;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+.gallery-title button {
+    padding: 12px 35px;
+    background: white;
+    border: 1px solid #bbb;
+    color: #555;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 3px;
+}
+
+.gallery-band {
+    background-color: #f6f3eb;
+    width: 100%;
+    padding: 40px 0 80px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.gallery img {
+    width: 32%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.white-separator {
+    background-color: #ffffff;
+    width: 100%;
+    height: 60px;
+}
+
+.footer-band {
+    background: #f4f0e8;
+    width: 100%;
+    border-top: 2px solid #e7e2e2;
+}
+
+footer {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+footer h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+footer p {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #2b92a5;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+footer hr {
+    width: 60%;
+    margin: 70px auto 40px;
+    border: none;
+    border-top: 1px solid #e2ded5;
+}
+
+.copyright {
+    color: #aaa;
+    font-size: 13px;
+}

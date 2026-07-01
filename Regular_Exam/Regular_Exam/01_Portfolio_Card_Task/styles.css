@@ -1,0 +1,130 @@
+body {
+    font-family: 'DM Mono', monospace;
+    background-color: #747c80;
+}
+
+.site-container {
+    width: 1000px;
+    border-radius: 15px;
+    background-color: #f8f4ef;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ede8e2;
+    border-bottom: 1px solid #d7d1cb;
+    align-items: center;
+}
+
+.header-ul ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+
+.header-ul a{
+    text-decoration: none;
+    color: #8f9299;
+    font-size: 14px;
+
+}
+
+.header-ul li:first-child a {
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+
+main {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 120px;
+}
+
+.main-content {
+    width: 650px;
+}
+
+.main-content p {
+    color: #8f9299;
+    line-height: 1.2;
+    font-size: 0.9rem;
+    margin-bottom: 35px;
+}
+
+.main-content button {
+    background: #c84b31;
+    color: white;
+    border: none;
+    padding: 10px 60px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+.main-img {
+    width: 350px;
+    border: 4px solid #747171;
+    border-radius: 90px;
+    overflow: hidden;
+}
+
+main img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+    padding: 0 80px 50px;
+}
+
+footer p {
+    margin-bottom: 25px;
+    color: #8f9299;
+    font-size: 14px;
+}
+
+.footer-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-img img {
+    width: 90px;
+    border: 1px solid #8f9299;
+    border-radius: 100px;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    border: 1px solid #cfc8c2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.logo:nth-child(2) {
+    color: #ff5c3a;
+}
+
+.logo:nth-child(3),
+.logo:nth-child(4) {
+    color: #3f63ff;
+}
+
+.logo:nth-child(5) {
+    color: #ff3b30;
+}

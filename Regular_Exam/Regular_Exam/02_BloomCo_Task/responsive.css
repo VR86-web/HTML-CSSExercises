@@ -1,0 +1,74 @@
+@media (max-width: 600px) {
+
+    body {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .nav-burger-menu {
+        display: block;
+        font-size: 30px;
+        color: white;
+        align-self: flex-start;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .nav-logo a {
+        padding-left: 0;
+    }
+
+    .nav-user-btns {
+        width: 100%;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .nav-user-btns li,
+    .nav-user-btns button {
+        width: 100%;
+    }
+
+    .content-info {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .content-info-img {
+        display: none;
+    }
+
+    .content-info-welcome {
+        width: 100%;
+        text-align: center;
+    }
+
+    .content-info-welcome button {
+        width: 100%;
+    }
+
+    .content-services {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .content-services div {
+        width: 100%;
+    }
+
+    .gallery {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .gallery img {
+        width: 100%;
+    }
+}
